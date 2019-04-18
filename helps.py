@@ -94,7 +94,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 1,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -110,7 +110,7 @@
     "    std = plt.plot(rolling_std, color='orange', label = 'Rolling Std')\n",
     "    plt.legend(loc='best')\n",
     "    plt.title('Original, Rolling Mean, Standard Deviation')\n",
-    "    plt.show()"
+    "    plt.show(block = False)"
    ]
   },
   {
@@ -144,7 +144,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [],
    "source": [
